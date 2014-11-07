@@ -1,7 +1,6 @@
 _ = require 'lodash'
 
 
-
 recursiveMerge = ->
   # Ensure dates and arrays are not recursively merged
   return arguments[0]  if _.isArray(arguments[0]) or _.isDate(arguments[0])

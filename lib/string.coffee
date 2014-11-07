@@ -11,7 +11,6 @@ module.exports =
     ).join ''
 
 
-
   ###*
   Escape a string for use in regex.
   ###
