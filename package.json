@@ -1,6 +1,6 @@
 {
   "name": "stacker-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Common utils for Stacker DevOps CLI.",
   "main": "bin/airstack.js",
   "engines": {
