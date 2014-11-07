@@ -54,7 +54,7 @@ module.exports = UtilsFs =
   Does not guarantee uniqueness.
   ###
   randomTmpDir: (base) ->
-    base ?= path.join os.tmpdir(), 'airstack'
+    base ?= path.join os.tmpdir(), 'stacker'
     dir = [
       'tmp-'
       process.pid
