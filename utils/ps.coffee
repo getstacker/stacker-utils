@@ -74,8 +74,6 @@ spawn = (cmd, args = [], opts = {}) ->
     args = cmd[1]
     cmd = cmd[0]
   execDefaults cmd, opts
-  _stdout = ''
-  _stderr = ''
   # todo: use cancellable and timeout
   new Promise (resolve, reject) ->
     log.debug "[spawn]".grey, "#{cmd} #{args.join ' '}"
@@ -85,11 +83,13 @@ spawn = (cmd, args = [], opts = {}) ->
       proc.unref()
       resolve pid: pid
     else
+      _stdout = ''
+      _stderr = ''
       proc.stdout.on 'data', (data) ->
         _stdout += opts.stdout data
       proc.stderr.on 'data', (data) ->
         _stderr += opts.stderr data
-      proc.on 'exit', (code) ->
+      proc.on 'close', (code) ->
         ret = stdout: _stdout, stderr: _stderr, code: code
         code is 0 and resolve(ret) or reject(ret)
 
