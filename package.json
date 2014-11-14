@@ -1,7 +1,7 @@
 {
   "name": "stacker-utils",
   "version": "0.1.3",
-  "description": "Common utils for Stacker DevOps CLI.",
+  "description": "Utils for Stacker DevOps CLI.",
   "main": "index.js",
   "engines": {
     "node": ">= 0.11.14"
@@ -11,21 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/stackerops/stacker.git"
+    "url": "git://github.com/getstacker/stacker-utils.git"
   },
   "keywords": [
-    "stacker",
-    "devops",
-    "coffeescript",
-    "docker",
-    "cli"
+    "stacker"
   ],
-  "author": "Joe Johnston <joe@simple10.com> (http://simple10.com/)",
+  "author": "Joe Johnston <joe@simple10.com> (http://www.simple10.com/)",
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/stackerops/stacker/issues"
+    "url": "https://github.com/getstacker/stacker-utils/issues"
   },
-  "homepage": "https://github.com/stackerops/stacker",
+  "homepage": "https://github.com/getstacker/stacker-utils",
   "dependencies": {
     "bluebird": "^2.2.2",
     "coffee-script": "^1.7.1",

@@ -1,6 +1,6 @@
 {
   "name": "stacker-utils",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "dependencies": {
     "bluebird": {
       "version": "2.3.11",
@@ -23,46 +23,6 @@
       "version": "2.4.1",
       "from": "lodash@^2.4.1",
       "resolved": "https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz"
-    },
-    "winston": {
-      "version": "0.8.3",
-      "from": "winston@>=0.8.3 <0.9.0",
-      "resolved": "https://registry.npmjs.org/winston/-/winston-0.8.3.tgz",
-      "dependencies": {
-        "async": {
-          "version": "0.2.10",
-          "from": "async@0.2.10"
-        },
-        "colors": {
-          "version": "0.6.2",
-          "from": "colors@0.6.2",
-          "resolved": "https://registry.npmjs.org/colors/-/colors-0.6.2.tgz"
-        },
-        "cycle": {
-          "version": "1.0.3",
-          "from": "cycle@>=1.0.0 <1.1.0",
-          "resolved": "https://registry.npmjs.org/cycle/-/cycle-1.0.3.tgz"
-        },
-        "eyes": {
-          "version": "0.1.8",
-          "from": "eyes@>=0.1.0 <0.2.0",
-          "resolved": "https://registry.npmjs.org/eyes/-/eyes-0.1.8.tgz"
-        },
-        "isstream": {
-          "version": "0.1.0",
-          "from": "isstream@>=0.1.0 <0.2.0",
-          "resolved": "https://registry.npmjs.org/isstream/-/isstream-0.1.0.tgz"
-        },
-        "pkginfo": {
-          "version": "0.3.0",
-          "from": "pkginfo@>=0.3.0 <0.4.0"
-        },
-        "stack-trace": {
-          "version": "0.0.9",
-          "from": "stack-trace@>=0.0.0 <0.1.0",
-          "resolved": "https://registry.npmjs.org/stack-trace/-/stack-trace-0.0.9.tgz"
-        }
-      }
     }
   }
 }
