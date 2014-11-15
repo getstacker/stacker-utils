@@ -1,7 +1,7 @@
 {
   "name": "stacker-utils",
-  "version": "0.2.0",
-  "description": "Utils for Stacker DevOps CLI.",
+  "version": "0.2.1",
+  "description": "Stacker utils plugin.",
   "main": "index.js",
   "engines": {
     "node": ">= 0.11.14"
@@ -14,7 +14,8 @@
     "url": "git://github.com/getstacker/stacker-utils.git"
   },
   "keywords": [
-    "stacker"
+    "stacker",
+    "plugin"
   ],
   "author": "Joe Johnston <joe@simple10.com> (http://www.simple10.com/)",
   "license": "Apache 2.0",
@@ -24,7 +25,7 @@
   "homepage": "https://github.com/getstacker/stacker-utils",
   "dependencies": {
     "bluebird": "^2.2.2",
-    "coffee-script": "^1.7.1",
+    "coffee-script": "^1.8",
     "lodash": "^2.4.1"
   },
   "devDependencies": {
