@@ -1,4 +1,5 @@
 require('coffee-script/register');
+require('stacker-globals');
 
 module.exports = {
   fs: require('./lib/fs'),
