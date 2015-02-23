@@ -1,10 +1,10 @@
 {
   "name": "stacker-utils",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Stacker utils plugin.",
   "main": "index.js",
   "engines": {
-    "node": ">= 0.11.14"
+    "iojs": ">= 1.3.0"
   },
   "scripts": {
     "test": "mocha"
@@ -24,10 +24,10 @@
   },
   "homepage": "https://github.com/getstacker/stacker-utils",
   "dependencies": {
-    "bluebird": "^2.2.2",
-    "coffee-script": "^1.8",
-    "lodash": "^2.4.1",
-    "stacker-globals": "^0.1.0"
+    "bluebird": "^2.9",
+    "coffee-script": "^1.9.1",
+    "lodash": "^3.3",
+    "stacker-globals": "^0.2.1"
   },
   "devDependencies": {
     "chai": "^1.9.1",

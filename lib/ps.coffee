@@ -1,10 +1,12 @@
-log = require 'log'
 Promise = require 'bluebird'
 node_spawn = require('child_process').spawn
 node_exec = Promise.promisify require('child_process').exec
 escapeRegExp = require('./string').escapeRegExp
 path = require 'path'
 _ = require 'lodash'
+
+# globals
+log = require 'stacker/log'
 
 
 setOptions = (opts) ->
