@@ -31,14 +31,6 @@ module.exports = UtilsFs =
         throw err
 
   ###*
-  fs.exists with Promise support.
-  ###
-  exists: (path) ->
-    new Promise (resolve, reject) ->
-      fs.exists path, resolve
-
-
-  ###*
   Get a random file name in the OS's tmp dir.
 
   Does not guarantee uniqueness.
