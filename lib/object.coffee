@@ -1,5 +1,5 @@
 # globals
-_ = 'stacker/_'
+_ = require 'stacker/_'
 
 
 recursiveMerge = ->

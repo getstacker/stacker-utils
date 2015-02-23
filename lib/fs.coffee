@@ -3,8 +3,8 @@ os = require 'os'
 randomString = require('./string').random
 
 # globals
-_ = 'stacker/_'
-Promise = 'stacker/promise'
+_ = require 'stacker/_'
+Promise = require 'stacker/promise'
 
 fs = Promise.promisifyAll require('fs')
 

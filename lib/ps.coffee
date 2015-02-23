@@ -3,8 +3,8 @@ escapeRegExp = require('./string').escapeRegExp
 path = require 'path'
 
 # globals
-_ = 'stacker/_'
-Promise = 'stacker/promise'
+_ = require 'stacker/_'
+Promise = require 'stacker/promise'
 log = require 'stacker/log'
 
 node_exec = Promise.promisify require('child_process').exec
