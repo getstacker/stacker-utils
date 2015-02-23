@@ -1,9 +1,12 @@
-Promise = require 'bluebird'
-fs = Promise.promisifyAll require('fs')
 path = require 'path'
 os = require 'os'
-_ = require 'lodash'
 randomString = require('./string').random
+
+# globals
+_ = 'stacker/_'
+Promise = 'stacker/promise'
+
+fs = Promise.promisifyAll require('fs')
 
 
 module.exports = UtilsFs =

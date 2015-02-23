@@ -1,4 +1,5 @@
-_ = require 'lodash'
+# globals
+_ = 'stacker/_'
 
 
 recursiveMerge = ->

@@ -1,3 +1,4 @@
+# String utils
 
 module.exports =
 
