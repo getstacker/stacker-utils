@@ -4,7 +4,7 @@ randomString = require('./string').random
 
 # globals
 _ = require 'stacker/_'
-Promise = require 'stacker/promise'
+{Promise} = require 'stacker/promise'
 
 fs = Promise.promisifyAll require('fs')
 

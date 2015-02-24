@@ -4,7 +4,7 @@ path = require 'path'
 
 # globals
 _ = require 'stacker/_'
-Promise = require 'stacker/promise'
+{Promise} = require 'stacker/promise'
 log = require 'stacker/log'
 
 node_exec = Promise.promisify require('child_process').exec

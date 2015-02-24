@@ -5,6 +5,5 @@ module.exports = {
   fs: require('./lib/fs'),
   string: require('./lib/string'),
   object: require('./lib/object'),
-  ps: require('./lib/ps'),
-  promise: require('./lib/promise')
+  ps: require('./lib/ps')
 };
